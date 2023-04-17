@@ -1,0 +1,26 @@
+{
+  "name": "nodeinterface",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cookie-session": "^2.0.0",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "formidable": "^2.0.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "short-uuid": "^4.2.0",
+    "shortid": "^2.2.16",
+    "svg-captcha": "^1.4.0",
+    "uuid": "^8.3.2"
+  }
+}
